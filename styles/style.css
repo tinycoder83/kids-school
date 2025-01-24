@@ -1,5 +1,5 @@
 body{
-    padding: 15px 100px 15px 100px;
+    padding: 20px 150px 20px 150px;
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
 }
@@ -147,7 +147,7 @@ nav ul li{
 .grid{
     display:flex;
     grid-template-columns: 2fr 1fr;
-    gap: 30px;
+    gap: 40px;
     padding: 20px;
     border-radius: 16px;
     margin-top: 40px;
@@ -162,8 +162,8 @@ nav ul li{
     
 }
 .im1 img{
-    border-radius: 10px;
-    width: 900px;
+   
+    width: 800px;
     height: 500px;
     margin-bottom: 50px;
 }
@@ -187,7 +187,7 @@ nav ul li{
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     height: 900px;
-    width: 1700px;
+    width: 1900px;
     
 }
 
