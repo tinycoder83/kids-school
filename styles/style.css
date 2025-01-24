@@ -125,6 +125,7 @@ nav ul li{
     border-color: #DEF5FF;
    background-image: linear-gradient(180deg, #d9f3ff 0%,white 100%);
    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   transition: 0.3s ease;
 
 }
 .second{
@@ -136,4 +137,78 @@ nav ul li{
     border-color: #F2E8FF;
    background-image: linear-gradient(180deg,#F2E8FF 0%,white 100%);
    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.pic h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 60px;
+}
+.grid{
+    display:flex;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 40px;
+    
+}
+
+.im1 {
+    border-radius: 16px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.im1 img{
+    border-radius: 10px;
+    width: 900px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.im1 h3{
+    font-size:34px ;
+    margin-bottom: 50px;
+}
+
+.im1 p{
+   font-size: 20px;
+   line-height: 2;
+
+}
+.story-content{
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 250px;
+}
+.small-stories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    height: 900px;
+    width: 1700px;
+    
+}
+
+.small-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.small-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+ 
+}
+
+.small-card h2 {
+    font-weight: bold;
+    font-size: 25px;
 }
